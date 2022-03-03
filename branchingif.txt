@@ -1,0 +1,13 @@
+public class BranchingIfandElse {
+public static void main(String[] args){
+if (x==10){
+System.out.print("x must be 10");
+}
+else{
+if ((x<3)&name.equals("dirk"))){
+System.out.print("Gently");
+}
+}
+}
+System.out.print("this program will Run no matter what");
+}

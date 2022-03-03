@@ -1,0 +1,17 @@
+
+public class Star4 {
+
+	public static void main(String[] args) {
+int n=5;
+int rows,star;
+for( rows=1;rows<n;rows++)
+{
+	for( star=1;2*rows>star;star++) {
+		System.out.print("* ");
+	}
+	System.out.println("");
+}
+
+	}
+
+}

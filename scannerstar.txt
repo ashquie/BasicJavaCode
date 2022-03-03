@@ -1,0 +1,41 @@
+import java.io.*;
+import java.util.Scanner;
+ 
+// Java code to demonstrate star patterns
+public class Star
+{
+    // Function to demonstrate printing pattern
+    public static void printStars(int Row)
+    {
+        int i, j;
+ 
+        // outer loop to handle number of rows
+        //  n in this case
+        for(i=0; i<Row; i++)
+        {
+ 
+            //  inner loop to handle number of columns
+            //  values changing acc. to outer loop   
+            for(j=0; j<=i; j++)
+            {
+                // printing stars
+                System.out.print("* ");
+            }8
+ 
+            // ending line after each row
+            System.out.println();
+        }
+   }
+ 
+    // Driver Function
+    public static void main(String args[])
+    {
+       
+        System.out.println("Enter no of Rows you want To Print");
+        Scanner n= new Scanner(System.in);
+        int Row=n.nextInt();
+        System.out.println("ready to Rock and Roll");
+
+        printStars(Row);
+    }
+}

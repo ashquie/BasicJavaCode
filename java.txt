@@ -1,0 +1,32 @@
+package love;
+import java.util.Scanner;
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+System.out.println("what is your name");
+String name = scanner.nextLine();
+System.out.println("your name is "+name);
+System.out.println("what is your age ");
+int age = scanner.nextInt();
+scanner.nextLine();
+System.out.println("what is your favourate food");
+String food = scanner.nextLine();
+System.out.println("what is your city");
+String city = scanner.nextLine();
+System.out.println("what is your lucky no. ");
+
+int lucky = scanner.nextInt();
+
+scanner.nextLine();
+
+
+System.out.println("your name is "+ name);
+System.out.println("your age is "+ age);
+System.out.println("your favourate food is "+ food);
+System.out.println("your city is "+ city);
+System.out.println("your lucky no. "+ lucky);
+	}
+
+}

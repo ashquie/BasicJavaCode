@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Starwithscanner {
+
+	public static void main(String[] args) {
+System.out.println("Enetr the no. of star to print");
+Scanner n = new Scanner(System.in);
+int rom=n.nextInt();
+
+int rows,star;
+for( rows=0;rows<rom;rows++)
+{
+	for( star=1;2*rows>star;star++) {
+		System.out.print("* ");
+	}
+	System.out.println("");
+}
+
+	}
+
+}
